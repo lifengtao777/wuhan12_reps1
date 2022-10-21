@@ -5,7 +5,7 @@ os.environ['SPARK_HOME'] = '/export/server/spark-3.1.2/'
 os.environ["PYSPARK_PYTHON"]="/root/anaconda3/bin/python"
 os.environ["PYSPARK_DRIVER_PYTHON"]="/root/anaconda3/bin/python"
 if __name__ == '__main__':
-    print('Spark入门案例---WordCount')
+    print('Spark入门案例55---WordCount')
     conf = SparkConf().setMaster("local[*]").setAppName("Wordcount")
     sc = SparkContext(conf=conf) 
 
